@@ -45,7 +45,6 @@ add_library(${CMAKE_PROJECT_NAME} SHARED
 
 add_library(pojavexec SHARED
         pojavexec_minispec.c)
-        
 
 # Specifies libraries CMake should link to your target library. You
 # can link libraries from various origins, such as libraries defined in this

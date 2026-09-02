@@ -42,6 +42,97 @@
         android:text="View Logs"
         android:textAllCaps="false"
         android:textSize="18sp"
+        android:layout_marginBottom="16dp"
         style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    <Button
+        android:id="@+id/btn_check_timestamp"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:text="Check Timestamp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    <Button
+        android:id="@+id/btn_shader_debug"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:text="Show Shader"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    <Button
+        android:id="@+id/btn_show_transparency_shaders"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:text="Show Trans Shaders"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    <Button
+        android:id="@+id/btn_patch_oit"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:text="Patch OIT"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#E91E63"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_patch_config"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:text="Patch Config"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#009688"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_patch_specific"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:text="Patch Specific"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_patch_shader"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:text="Patch Shader"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_patch_all_shaders"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:text="Patch All Shaders"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#FF9800"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_restore_shaders"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:text="Restore Shaders"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#F44336"
+        android:layout_marginBottom="16dp"/>
 
 </LinearLayout>
